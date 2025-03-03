@@ -1,0 +1,13 @@
+{
+  "spreadsheet_id": "...........",
+  "start_date": "03.02.2025",
+  "start_cell": "A1",
+  "start_weekday": 1,
+  "exceptions": {
+    "additional_workdays": [
+      "15.02.2025",
+      "22.02.2025"
+    ],
+    "removed_workdays": []
+  }
+}

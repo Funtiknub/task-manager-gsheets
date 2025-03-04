@@ -2,8 +2,8 @@
 :: Check if the script is running with administrative privileges
 net session >nul 2>&1
 if %errorLevel% == 0 (
-    :: If running as admin, change directory and run the Python script
-    cd /d C:\Users\Fikusnat\Desktop\task-manager-gsheets
+    :: If running as admin, change directory to the batch file location and run the Python script
+    cd /d %~dp0
     py todo.py
 ) else (
     :: If not running as admin, relaunch the script with administrative privileges

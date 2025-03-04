@@ -1,13 +1,10 @@
 {
-  "spreadsheet_id": "...........",
-  "start_date": "03.02.2025",
+  "spreadsheet_id": "https://docs.google.com/spreadsheets/d/.......",
+  "start_date": "03.03.2025",
   "start_cell": "A1",
   "start_weekday": 1,
   "exceptions": {
-    "additional_workdays": [
-      "15.02.2025",
-      "22.02.2025"
-    ],
+    "additional_workdays": [],
     "removed_workdays": []
   }
 }
